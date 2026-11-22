@@ -1,0 +1,13 @@
+{
+  "asignaturas": [
+    {
+      "archivo": "data/desarrollo-web.json"
+    },
+    {
+      "archivo": "data/matematicas.json"
+    },
+    {
+      "archivo": "data/biologia.json"
+    }
+  ]
+}

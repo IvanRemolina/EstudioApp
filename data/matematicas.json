@@ -1,0 +1,31 @@
+{
+  "asignatura": "Matemáticas",
+  "temas": [
+    {
+      "nombre": "Álgebra",
+      "tarjetas": [
+        {
+          "pregunta": "¿Qué es una ecuación?",
+          "respuesta": "Una igualdad matemática que contiene una o más incógnitas."
+        },
+        {
+          "pregunta": "¿Qué significa resolver una ecuación?",
+          "respuesta": "Encontrar el valor o los valores que hacen verdadera la igualdad."
+        }
+      ]
+    },
+    {
+      "nombre": "Geometría",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuánto suman los ángulos interiores de un triángulo?",
+          "respuesta": "Siempre suman 180 grados."
+        },
+        {
+          "pregunta": "¿Cómo se calcula el área de un rectángulo?",
+          "respuesta": "Multiplicando su base por su altura."
+        }
+      ]
+    }
+  ]
+}

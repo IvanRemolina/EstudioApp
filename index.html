@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarjetas de estudio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <p class="eyebrow">ESTUDIA A TU RITMO</p>
+      <h1>Tarjetas de estudio</h1>
+      <p class="intro">
+        Piensa la respuesta, gira la tarjeta y comprueba lo que sabes.
+      </p>
+    </header>
+
+    <section class="loader" aria-labelledby="load-title">
+      <div>
+        <h2 id="load-title">Biblioteca de estudio</h2>
+        <p>Selecciona una asignatura y sus temas, o empieza con todas las tarjetas disponibles.</p>
+      </div>
+    </section>
+
+    <p id="message" class="message" role="status" aria-live="polite"></p>
+
+    <section id="library" class="library" aria-label="Asignaturas disponibles">
+      <div class="library-actions">
+        <label class="check-all">
+          <input id="select-all" type="checkbox" checked>
+          Todas las asignaturas y temas
+        </label>
+        <button id="start" class="primary" type="button">Estudiar selección</button>
+      </div>
+      <div id="subjects" class="subjects"></div>
+    </section>
+
+    <section id="study" class="study" hidden aria-label="Tarjetas">
+      <div class="progress-row">
+        <span id="counter"></span>
+        <span id="remaining"></span>
+      </div>
+
+      <div class="progress" aria-hidden="true">
+        <div id="progress-fill"></div>
+      </div>
+
+      <button id="card" class="card" type="button" aria-label="Mostrar respuesta">
+        <span id="card-label" class="card-label"></span>
+        <span id="card-text" class="card-text"></span>
+        <span class="card-hint">
+          Toca para girar · Desliza a izquierda o derecha
+        </span>
+      </button>
+
+      <div class="actions">
+        <button id="flip" class="secondary" type="button">Ver respuesta</button>
+        <button id="next" class="primary" type="button">Siguiente pregunta →</button>
+      </div>
+
+      <p class="keyboard">
+        También puedes usar ← para ver la respuesta y → para volver a la pregunta.
+      </p>
+    </section>
+
+    <section id="complete" class="complete" hidden aria-live="polite">
+      <div class="celebration" aria-hidden="true">✓</div>
+      <h2>¡Ronda completada!</h2>
+      <p id="complete-text"></p>
+      <button id="restart" class="primary" type="button">
+        Empezar otra ronda
+      </button>
+    </section>
+
+    <details class="format">
+      <summary>¿Cómo preparo un archivo JSON?</summary>
+      <p>
+        Cada asignatura tiene su propio archivo dentro de <code>data/</code>.
+        Debe contener un nombre de asignatura y una lista de temas; cada tema
+        contiene preguntas y respuestas. Añade el archivo a
+        <code>manifest.json</code> para mostrarlo en la biblioteca.
+      </p>
+      <pre><code>{
+  "asignatura": "Matemáticas",
+  "temas": [
+    {
+      "nombre": "Álgebra",
+      "tarjetas": [
+        {
+          "pregunta": "¿Qué es una ecuación?",
+          "respuesta": "Una igualdad con una o más incógnitas."
+        }
+      ]
+    }
+  ]
+}</code></pre>
+    </details>
+  </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "asignatura": "Biología",
+  "temas": [
+    {
+      "nombre": "Célula",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál es la unidad básica de los seres vivos?",
+          "respuesta": "La célula."
+        },
+        {
+          "pregunta": "¿Qué función tiene el núcleo celular?",
+          "respuesta": "Contener el material genético y coordinar las actividades de la célula."
+        }
+      ]
+    },
+    {
+      "nombre": "Genética",
+      "tarjetas": [
+        {
+          "pregunta": "¿Qué molécula almacena la información genética?",
+          "respuesta": "El ADN."
+        },
+        {
+          "pregunta": "¿Qué es un gen?",
+          "respuesta": "Una unidad de información hereditaria formada por una secuencia de ADN."
+        }
+      ]
+    }
+  ]
+}
