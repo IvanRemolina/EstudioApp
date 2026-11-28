@@ -211,6 +211,111 @@
           "respuesta_correcta": "C"
         }
       ]
+    },
+    {
+      "nombre": "Tema 3",
+      "tarjetas": [
+        {
+          "pregunta": "Se considera trabajo nocturno:",
+          "opciones": {
+            "A": "La jornada de trabajo que tiene lugar entre la entrada y la salida del sol",
+            "B": "La jornada de trabajo que tiene lugar entre las 22:00 y las 06:00 horas",
+            "C": "Todas las respuestas anteriores son correctas",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "El calendario laboral:",
+          "opciones": {
+            "A": "Debe colocarse en un lugar visible a todos los empleados. No hacerlo implica una sanción grave",
+            "B": "Debe colocarse en un lugar visible a todos los empleados. No hacerlo implica una sanción leve",
+            "C": "Debe colocarse en un lugar visible a todos los empleados. No hacerlo implica una sanción muy grave",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es el objetivo que persigue la reforma laboral de diciembre de 2021?",
+          "opciones": {
+            "A": "Reducir la temporalidad y la precariedad laboral",
+            "B": "Reducir el desempleo",
+            "C": "Reducir la economía sumergida",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuáles son los modelos de contrato que se pueden formalizar a partir de la entrada en vigor de la reforma de 2021?",
+          "opciones": {
+            "A": "Indefinido, temporal y en practicas",
+            "B": "Indefinido, temporal y por obra o servicio",
+            "C": "Indefinido, temporal, fijo discontinuo y formativo",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "Indica cual es una característica de los contratos indefinidos ordinarios",
+          "opciones": {
+            "A": "No tener una duración máxima de 3 años",
+            "B": "No tener una duración máxima de 2 años",
+            "C": "No tener tiempo máximo de celebración",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "Indica qué contrato pertenece al grupo de contratos formativos",
+          "opciones": {
+            "A": "El contrato eventual por circunstancias de la producción",
+            "B": "El contrato por obra o servicio",
+            "C": "El contrato de formación dual",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "La jornada en la que la que no se realiza la pausa para la comida es",
+          "opciones": {
+            "A": "Jornada partida",
+            "B": "Jornada continuada",
+            "C": "Jornada a turnos",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "El número de festivos nacionales al año no puede ser superior a",
+          "opciones": {
+            "A": "2 días",
+            "B": "4 días",
+            "C": "6 días",
+            "D": "8 días"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "Los días festivos…",
+          "opciones": {
+            "A": "Son retribuidas",
+            "B": "Se deben recuperar",
+            "C": "Se descuentan de las vacaciones anuales",
+            "D": "Todas son correctas"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué duración de contrato está penalizada con recargos?",
+          "opciones": {
+            "A": "Los contratos menores a 15 días.",
+            "B": "Los contratos menores a 5 días.",
+            "C": "Los contratos menores a 30 días.",
+            "D": "Los contratos menores a 90 días."
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
     }
   ]
 }
