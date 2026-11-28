@@ -1,106 +1,1580 @@
 {
   "asignatura": "Contabilidad Financiera",
-  "tema": "Tema 1",
-  "preguntas": [
+  "temas": [
     {
-      "pregunta": "¿Cuál es el propósito principal de un Plan General Contable?",
-      "opciones": {
-        "A": "Regular las relaciones laborales",
-        "B": "Establecer normas de seguridad",
-        "C": "Establecer criterios contables comunes",
-        "D": "Regular el mercado de valores"
-      },
-      "respuesta_correcta": "C"
+      "nombre": "Tema 1",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál es el propósito principal de un Plan General Contable?",
+          "opciones": {
+            "A": "Regular las relaciones laborales",
+            "B": "Establecer normas de seguridad",
+            "C": "Establecer criterios contables comunes",
+            "D": "Regular el mercado de valores"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué representa el pasivo en el balance de una empresa?",
+          "opciones": {
+            "A": "Deudas y obligaciones",
+            "B": "Activos y recursos",
+            "C": "Beneficios acumulados",
+            "D": "Inversiones a largo plazo"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿En qué consiste el factoring?",
+          "opciones": {
+            "A": "Venta de cuentas por cobrar a terceros",
+            "B": "Emisión de bonos en el mercado de valores",
+            "C": "Obtención de préstamos bancarios",
+            "D": "Adquisición de activos fijos"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuál de los siguientes no es un tipo de financiación propia?",
+          "opciones": {
+            "A": "Capital social",
+            "B": "Reservas acumuladas",
+            "C": "Préstamos bancarios",
+            "D": "Beneficios no distribuidos"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué es el capital social de una empresa?",
+          "opciones": {
+            "A": "Deudas acumuladas",
+            "B": "Recursos aportados por los accionistas",
+            "C": "Beneficios retenidos",
+            "D": "Intereses sobre préstamos"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué tipo de financiamiento implica el alquiler a largo plazo de un activo con opción de compra?",
+          "opciones": {
+            "A": "Factoring",
+            "B": "Crowdfunding",
+            "C": "Arrendamiento financiero",
+            "D": "Emisión de bonos"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué son las reservas acumuladas en una empresa?",
+          "opciones": {
+            "A": "Recursos aportados por los accionistas",
+            "B": "Beneficios no distribuidos",
+            "C": "Deudas pendientes de pago",
+            "D": "Inversiones en activos fijos"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué cuenta representa las reservas constituidas al emitir las acciones por encima de su valor nominal?",
+          "opciones": {
+            "A": "Capital social",
+            "B": "Reservas Voluntarias",
+            "C": "Reserva Legal",
+            "D": "Prima de Emisión"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Cuál de las siguientes NO es una característica del arrendamiento financiero?",
+          "opciones": {
+            "A": "Contrato de alquiler a largo plazo",
+            "B": "Opción de compra al final del contrato",
+            "C": "Es un contrato de alquiler a corto plazo",
+            "D": "Si se ejerce la opción de compra del bien, se pasa a ser propietario del mismo."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué representan las subvenciones en una empresa?",
+          "opciones": {
+            "A": "Ingresos generados por la venta de productos",
+            "B": "Beneficios acumulados",
+            "C": "Ayudas económicas proporcionadas por entidades públicas o privadas",
+            "D": "Inversiones en activos fijos"
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
     },
     {
-      "pregunta": "¿Qué representa el pasivo en el balance de una empresa?",
-      "opciones": {
-        "A": "Deudas y obligaciones",
-        "B": "Activos y recursos",
-        "C": "Beneficios acumulados",
-        "D": "Inversiones a largo plazo"
-      },
-      "respuesta_correcta": "A"
+      "nombre": "Tema 2",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál de las siguientes opciones no es un ejemplo de inmovilizado material?",
+          "opciones": {
+            "A": "Maquinaria.",
+            "B": "Terrenos.",
+            "C": "Marcas.",
+            "D": "Edificios."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "De los siguientes cuál es un método para calcular la amortización.",
+          "opciones": {
+            "A": "Método de la amortización constante.",
+            "B": "Método de la depreciación acelerada.",
+            "C": "Método del valor razonable.",
+            "D": "Método del saldo decreciente."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuál de los siguientes elementos no forma parte del inmovilizado intangible?",
+          "opciones": {
+            "A": "Concesiones administrativas.",
+            "B": "Propiedad industrial.",
+            "C": "Existencias.",
+            "D": "Aplicaciones informáticas."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cuál de los siguientes activos generalmente se clasifica como inversión inmobiliaria?",
+          "opciones": {
+            "A": "Edificio de oficinas que la empresa usa para su sede.",
+            "B": "Terrenos que la empresa planea desarrollar en el futuro.",
+            "C": "Maquinaria utilizada en la línea de producción.",
+            "D": "Vehículos de transporte utilizados para entregas."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "La empresa Grand Prix adquiere un vehículo, por un valor de 16.000 €, el impuesto de matriculación es 1.120 €, los gastos que conlleva dicha matriculación ascienden a 410 €, con IVA del 21%. Por tanto, el precio de adquisición es:",
+          "opciones": {
+            "A": "16000",
+            "B": "17120",
+            "C": "17530",
+            "D": "20685"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "La empresa Vizcaya GR adquiere muebles el 1/8 por valor de 2.500 €; la vida útil es 5 años y el sistema de amortización es de cuota constante o lineal. La cuota de amortización del primer año es:",
+          "opciones": {
+            "A": "175",
+            "B": "208,33",
+            "C": "500",
+            "D": "420"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "La empresa Joaquín SL tiene una instalación técnica que tuvo un precio de adquisición de 45.000 €, un valor residual de 4.500 € y una vida útil de 10 años. Lleva a cabo el sistema de amortización de los números dígitos decrecientes. La cuota de amortización del primer año es:",
+          "opciones": {
+            "A": "4050",
+            "B": "736,36",
+            "C": "7363,64",
+            "D": "8181,82"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "El método de amortización utilizado de manera habitual en las empresas es:",
+          "opciones": {
+            "A": "Método de amortización según tablas",
+            "B": "Método lineal",
+            "C": "Método de amortización según números dígitos",
+            "D": "Método de amortización funcional"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "En relación a la amortización del inmovilizado, ¿Con qué nombre se conoce al valor que la empresa espera obtener al final de la vida útil del mismo?",
+          "opciones": {
+            "A": "Vida útil",
+            "B": "Valor residual",
+            "C": "Desgaste físico",
+            "D": "Depreciación por agotamiento"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "La cuenta que representa el anticipo para las Inmovilizaciones Materiales es:",
+          "opciones": {
+            "A": "236",
+            "B": "237",
+            "C": "239",
+            "D": "Esa cuenta no forma parte del cuadro de cuentas."
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
     },
     {
-      "pregunta": "¿En qué consiste el factoring?",
-      "opciones": {
-        "A": "Venta de cuentas por cobrar a terceros",
-        "B": "Emisión de bonos en el mercado de valores",
-        "C": "Obtención de préstamos bancarios",
-        "D": "Adquisición de activos fijos"
-      },
-      "respuesta_correcta": "A"
+      "nombre": "Tema 3",
+      "tarjetas": [
+        {
+          "pregunta": "¿Qué cuenta se utiliza para registrar la compra de mercaderías?",
+          "opciones": {
+            "A": "(600) Compra de mercaderías",
+            "B": "(601) Compra de materias primas",
+            "C": "(602) Compra de otros aprovisionamientos",
+            "D": "(607) Trabajos realizados por otras empresas"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué tipo de transacciones se registran en las cuentas de ventas?",
+          "opciones": {
+            "A": "Compras de servicios",
+            "B": "Ventas de activos fijos",
+            "C": "Ventas de productos y prestación de servicios",
+            "D": "Devoluciones de mercancías"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué cuenta se utiliza para registrar la compra de envases sin devolución?",
+          "opciones": {
+            "A": "(602) Compra de otros aprovisionamientos",
+            "B": "(603) Compra de envases y embalajes",
+            "C": "(604) Compra de materiales consumibles",
+            "D": "(605) Compra de material de oficina"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuál es la cuenta utilizada para registrar el anticipo de remuneraciones?",
+          "opciones": {
+            "A": "(466) Remuneraciones pendientes de pago",
+            "B": "(462) Adelanto de nómina",
+            "C": "(464) Pago anticipado de sueldos",
+            "D": "(460) Anticipo de remuneraciones"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Qué objetivo principal tiene el Balance de Comprobación de Sumas y Saldos?",
+          "opciones": {
+            "A": "Registrar las transacciones financieras de una empresa.",
+            "B": "Calcular el beneficio neto de una empresa.",
+            "C": "Verificar la exactitud y la integridad de los registros contables de una empresa.",
+            "D": "Determinar el valor de mercado de una empresa."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cuándo se elabora el Balance de Comprobación de Sumas y Saldos según la normativa contable?",
+          "opciones": {
+            "A": "Al finalizar cada mes.",
+            "B": "Al finalizar cada trimestre.",
+            "C": "Al finalizar cada año fiscal.",
+            "D": "Al finalizar cada semana laboral."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es la estructura básica del Balance de Comprobación de Sumas y Saldos?",
+          "opciones": {
+            "A": "Cuentas, Debe, Haber, Saldo",
+            "B": "Haber, Debe, Saldo Deudor, Saldo Acreedor",
+            "C": "Debe, Haber, Saldo Deudor, Saldo Acreedor",
+            "D": "Activo, Pasivo, Patrimonio Neto"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué información se refleja en el Balance de Comprobación de Sumas y Saldos?",
+          "opciones": {
+            "A": "Detalle de todas las transacciones realizadas en el mes.",
+            "B": "Resumen de todas las cuentas que han sido objeto de alguna anotación.",
+            "C": "Cálculo del impuesto sobre la renta de la empresa.",
+            "D": "Evaluación del rendimiento de los activos financieros."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es el asiento contable correcto para registrar la compra de mercaderías a crédito por valor de 5,000 € más el 21% de IVA?",
+          "opciones": {
+            "A": "(600) Compras 5,000 € a (430) Clientes 5,000 €",
+            "B": "(430) Clientes 5,000 €, (472) Hacienda Pública 1,050 € a (600) Compras 6,050 €",
+            "C": "(600) Compras 5,000 €, (472) Hacienda Pública 1,050 € a (430) Clientes 6,050 €",
+            "D": "(600) Compras 5,000 €, (472) Hacienda Pública 1,050 € a (400) Proveedores 6,050 €"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Cuál es el asiento contable correcto para registrar el anticipo de remuneraciones por valor de 1,200 €?",
+          "opciones": {
+            "A": "(5208) Deuda por Efectos Comerciales Descontados 1,200 € a (430) Clientes 1,200 €",
+            "B": "(460) Anticipo de Remuneraciones 1,200 € a (572) Bancos c/c 1,200 €",
+            "C": "(572) Bancos c/c 1,200 € a (640) Sueldos y Salarios 1,200 €",
+            "D": "(4312) Efectos Comerciales en Gestión de Cobro 1,200 € a (640) Sueldos y Salarios 1,200 €"
+          },
+          "respuesta_correcta": "B"
+        }
+      ]
     },
     {
-      "pregunta": "¿Cuál de los siguientes no es un tipo de financiación propia?",
-      "opciones": {
-        "A": "Capital social",
-        "B": "Reservas acumuladas",
-        "C": "Préstamos bancarios",
-        "D": "Beneficios no distribuidos"
-      },
-      "respuesta_correcta": "C"
+      "nombre": "Tema 4",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál es el método utilizado con carácter general para determinar la base imponible del Impuesto de Sociedades?",
+          "opciones": {
+            "A": "Estimación objetiva",
+            "B": "Estimación indirecta",
+            "C": "Estimación directa",
+            "D": "Estimación simplificada"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cuál es el tipo de gravamen general aplicable en el Impuesto de Sociedades?",
+          "opciones": {
+            "A": "0,2",
+            "B": "0,23",
+            "C": "0,25",
+            "D": "0,3"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cuál es el tipo de gravamen aplicable a las entidades de nueva creación durante los dos primeros períodos con base imponible positiva?",
+          "opciones": {
+            "A": "0,15",
+            "B": "0,2",
+            "C": "0,25",
+            "D": "0,23"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué tipo de ajustes a la base imponible surgen por la diferente valoración fiscal y contable de los activos y pasivos?",
+          "opciones": {
+            "A": "Ajustes permanentes",
+            "B": "Ajustes temporales",
+            "C": "Ajustes extraordinarios",
+            "D": "Ajustes ordinarios"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué impuesto grava los beneficios de las empresas?",
+          "opciones": {
+            "A": "Impuesto sobre el Valor Añadido (IVA)",
+            "B": "Impuesto sobre la Renta de las Personas Físicas (IRPF)",
+            "C": "Impuesto de Sociedades",
+            "D": "Impuestos locales"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Quiénes están exentos de abonar el Impuesto sobre Actividades Económicas (IAE)?",
+          "opciones": {
+            "A": "Empresas individuales",
+            "B": "Estado, Comunidades Autónomas y entidades locales",
+            "C": "Personas jurídicas",
+            "D": "Sociedades anónimas"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué se aplica al recibir rentas ya gravadas por otros impuestos similares al Impuesto de Sociedades en otros países?",
+          "opciones": {
+            "A": "Bonificaciones",
+            "B": "Deducciones por doble imposición",
+            "C": "Deducciones por realizar determinadas actividades",
+            "D": "Rendimientos del trabajo"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Dónde se aplica el IRPF?",
+          "opciones": {
+            "A": "Solo en la Comunidad Foral de Navarra",
+            "B": "Solo en Canarias",
+            "C": "En todo el territorio español",
+            "D": "Solo en Ceuta y Melilla"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cuál de las siguientes NO forma parte del hecho imponible del IRPF?",
+          "opciones": {
+            "A": "Rendimientos del trabajo",
+            "B": "Rendimientos del capital",
+            "C": "Rendimientos de las actividades económicas",
+            "D": "Rendimientos de las loterías"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Qué modelos se deben presentar en Hacienda para ingresar retenciones a cuenta?",
+          "opciones": {
+            "A": "Modelo 145 y 190",
+            "B": "Modelo 111 y 180",
+            "C": "Modelo 111",
+            "D": "Modelo 145 y 115"
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
     },
     {
-      "pregunta": "¿Qué es el capital social de una empresa?",
-      "opciones": {
-        "A": "Deudas acumuladas",
-        "B": "Recursos aportados por los accionistas",
-        "C": "Beneficios retenidos",
-        "D": "Intereses sobre préstamos"
-      },
-      "respuesta_correcta": "B"
+      "nombre": "Tema 5",
+      "tarjetas": [
+        {
+          "pregunta": "El IVA es un impuesto…",
+          "opciones": {
+            "A": "Personal",
+            "B": "Indirecto",
+            "C": "Directo",
+            "D": "Progresivo"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "El IVA devengado siempre tiene que ser mayor que el repercutido…",
+          "opciones": {
+            "A": "No necesariamente.",
+            "B": "IVA devengado y repercutido son lo mismo.",
+            "C": "Siempre",
+            "D": "El IVA soportado siempre es mayor al repercutido"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "El modelo, habitualmente, utilizado para presentar y liquidar el IVA es…",
+          "opciones": {
+            "A": "303",
+            "B": "320",
+            "C": "347",
+            "D": "101"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuál de las siguientes operaciones no es una operación exenta de IVA?",
+          "opciones": {
+            "A": "Entregas intracomunitarias de bienes",
+            "B": "Las operaciones de seguro.",
+            "C": "Venta de mercaderías.",
+            "D": "Exportaciones"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cuál de las siguientes operaciones es una operación exenta?",
+          "opciones": {
+            "A": "La entrega gratuita de productos de demostración",
+            "B": "Las adquisiciones intracomunitarias de bienes",
+            "C": "Importaciones.",
+            "D": "Las exportaciones"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Cuál es el modelo aprobado para hacer el resumen anual de la declaración del IVA?",
+          "opciones": {
+            "A": "340",
+            "B": "390",
+            "C": "370",
+            "D": "380"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué ley regula el IVA en España?",
+          "opciones": {
+            "A": "Ley 37/1992",
+            "B": "Ley 10/1977",
+            "C": "Ley 20/1991",
+            "D": "Ley 8/1991"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué tipo de operaciones están sujetas al IVA?",
+          "opciones": {
+            "A": "Solo operaciones interiores",
+            "B": "Solo operaciones intracomunitarias",
+            "C": "Solo operaciones de importación",
+            "D": "Operaciones interiores, intracomunitarias y de importación"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Qué tipo de operaciones están exentas del IVA?",
+          "opciones": {
+            "A": "Solo operaciones de exportación",
+            "B": "Solo operaciones de importación",
+            "C": "Solo operaciones intracomunitarias",
+            "D": "Operaciones de exportación y entregas intracomunitarias"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Qué tipo de sujeto es el empresario o profesional que entrega bienes o presta servicios?",
+          "opciones": {
+            "A": "Sujeto activo",
+            "B": "Sujeto pasivo",
+            "C": "Sujeto neutral",
+            "D": "No existe"
+          },
+          "respuesta_correcta": "B"
+        }
+      ]
     },
     {
-      "pregunta": "¿Qué tipo de financiamiento implica el alquiler a largo plazo de un activo con opción de compra?",
-      "opciones": {
-        "A": "Factoring",
-        "B": "Crowdfunding",
-        "C": "Arrendamiento financiero",
-        "D": "Emisión de bonos"
-      },
-      "respuesta_correcta": "C"
+      "nombre": "Tema 6",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál es el objetivo principal del cierre contable?",
+          "opciones": {
+            "A": "Realizar los cálculos de la amortización del inmovilizado.",
+            "B": "Finalizar los registros contables al final de un ejercicio o período.",
+            "C": "Preparar los estados financieros finales.",
+            "D": "Iniciar un nuevo ciclo contable."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Por qué es necesario realizar el cierre contable desde un punto de vista fiscal?",
+          "opciones": {
+            "A": "Para presentar las cuentas anuales en el Registro Mercantil.",
+            "B": "Para liquidar impuestos por los beneficios.",
+            "C": "Para comprender la situación económica de la empresa.",
+            "D": "Para realizar el balance general de sumas y saldos."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué es el proceso de regularización en el cierre contable?",
+          "opciones": {
+            "A": "El proceso de preparación de estados financieros finales.",
+            "B": "El proceso de ajuste y corrección de las cuentas de la empresa.",
+            "C": "El proceso de inicio de un nuevo ciclo contable.",
+            "D": "El proceso de liquidación del IVA."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es el objetivo del asiento de ajuste variación de existencias?",
+          "opciones": {
+            "A": "Medir la variación sufrida por todas las existencias necesarias para una empresa.",
+            "B": "Medir y contabilizar las diferencias en las existencias entre el primer día y el último del ejercicio económico.",
+            "C": "Realizar los cálculos de la amortización del inmovilizado.",
+            "D": "Preparar los estados financieros finales."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Por qué se produce la depreciación de los elementos del inmovilizado?",
+          "opciones": {
+            "A": "Por la obsolescencia de los elementos.",
+            "B": "Por el uso o por el transcurso del tiempo, y por la obsolescencia.",
+            "C": "Por la variación de existencias.",
+            "D": "Por la liquidación del IVA."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Por qué se realiza la periodificación contable?",
+          "opciones": {
+            "A": "Para cumplir con el principio de prudencia.",
+            "B": "Para liquidar impuestos por los beneficios.",
+            "C": "Para imputar ingresos y gastos al ejercicio que correspondan.",
+            "D": "Para presentar las cuentas anuales en el Registro Mercantil."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué es el ciclo contable?",
+          "opciones": {
+            "A": "Todas las operaciones realizadas por una empresa durante un trimestre.",
+            "B": "Un proceso cíclico que comienza con una apertura y finaliza con un cierre.",
+            "C": "El proceso de liquidación del IVA.",
+            "D": "El proceso de preparación de estados financieros finales."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es el nombre del principio que establece que los ingresos y gastos se imputarán al ejercicio que correspondan?",
+          "opciones": {
+            "A": "Principio de prudencia.",
+            "B": "Principio de devengo.",
+            "C": "Principio de contabilidad.",
+            "D": "Principio de fiscalidad."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "La empresa procede a regularizar los productos terminados. Lo hará en la cuenta:",
+          "opciones": {
+            "A": "(610).",
+            "B": "(611).",
+            "C": "(612).",
+            "D": "(712)."
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "Una empresa ha obtenido en el año un total de ingresos de 4.600 € y ha tenido un total de gastos de 5.800 €. ¿Cuál es la afirmación correcta con respecto a la cuenta (129) Resultado del ejercicio?",
+          "opciones": {
+            "A": "Tendrá un saldo deudor de 1.200 €.",
+            "B": "Tendrá un saldo acreedor de 1.200 €.",
+            "C": "La cuenta 129 nunca puede tener saldo deudor por tratarse de una cuenta de Patrimonio neto.",
+            "D": "Tendrá un saldo deudor de 1.500€"
+          },
+          "respuesta_correcta": "A"
+        }
+      ]
     },
     {
-      "pregunta": "¿Qué son las reservas acumuladas en una empresa?",
-      "opciones": {
-        "A": "Recursos aportados por los accionistas",
-        "B": "Beneficios no distribuidos",
-        "C": "Deudas pendientes de pago",
-        "D": "Inversiones en activos fijos"
-      },
-      "respuesta_correcta": "B"
+      "nombre": "Tema 7",
+      "tarjetas": [
+        {
+          "pregunta": "¿Qué reflejan las cuentas anuales de una empresa?",
+          "opciones": {
+            "A": "Su situación económica, financiera y patrimonial",
+            "B": "Sus ventas anuales",
+            "C": "El número de empleados",
+            "D": "Sus activos totales"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué estructura tiene el balance de situación según el modelo de PYMES?",
+          "opciones": {
+            "A": "Activo, pasivo y patrimonio neto",
+            "B": "Activo no corriente, activo corriente, pasivo no corriente y pasivo corriente",
+            "C": "Activo, pasivo y patrimonio neto corriente y no corriente",
+            "D": "Activo corriente, activo no corriente, pasivo circulante y pasivo no corriente"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuál es el importe total de la cifra de negocios que debe tener una empresa para presentar la cuenta de pérdidas y ganancias según el PGC de PYMES?",
+          "opciones": {
+            "A": "< 21.800.000€",
+            "B": "< 22.400.000€",
+            "C": "< 22.600.000€",
+            "D": "< 22.800.000€"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Cuál es la principal diferencia entre el activo corriente y no corriente en el balance de situación?",
+          "opciones": {
+            "A": "El activo corriente incluye las partidas con vencimiento superior a un año",
+            "B": "El activo no corriente incluye las partidas con vencimiento inferior a un año",
+            "C": "El activo corriente incluye las partidas con vencimiento inferior a un año",
+            "D": "No hay diferencia, son términos sinónimos"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué partidas componen el patrimonio neto en el PGC de PYMES?",
+          "opciones": {
+            "A": "Capital, reservas, resultados de ejercicios anteriores, resultados del ejercicio",
+            "B": "Capital, reservas, resultados del ejercicio, subvenciones",
+            "C": "Capital, reservas, resultados de ejercicios anteriores, resultados del ejercicio, subvenciones, donaciones y legados recibidos",
+            "D": "Capital, reservas, resultados del ejercicio, provisiones"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué información proporciona el estado de flujos de efectivo?",
+          "opciones": {
+            "A": "Los cambios en el patrimonio neto",
+            "B": "Los ingresos y gastos del ejercicio",
+            "C": "La situación financiera al cierre del ejercicio",
+            "D": "Los movimientos de tesorería"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Qué plazo tienen las empresas para presentar sus cuentas anuales en el Registro Mercantil?",
+          "opciones": {
+            "A": "1 mes desde su aprobación",
+            "B": "3 meses desde el cierre del ejercicio",
+            "C": "6 meses desde el cierre del ejercicio",
+            "D": "1 año desde el cierre del ejercicio"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué cuentas anuales no son obligatorias para las empresas que siguen el PGC de PYMES?",
+          "opciones": {
+            "A": "Balance y memoria",
+            "B": "Cuenta de pérdidas y ganancias",
+            "C": "Estado de flujos de efectivo",
+            "D": "Estado de cambios en el patrimonio neto y estado de flujos de efectivo"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Cómo se puede distribuir el beneficio?",
+          "opciones": {
+            "A": "Aplicando a reservas",
+            "B": "Invirtiendo en inmovilizado",
+            "C": "Amortizando préstamos",
+            "D": "Reduciendo pólizas de crédito"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué información proporciona el estado de cambios en el patrimonio neto (ECPN)?",
+          "opciones": {
+            "A": "Los movimientos de tesorería",
+            "B": "Los ingresos y gastos del ejercicio",
+            "C": "Las variaciones surgidas en el patrimonio neto durante el ejercicio",
+            "D": "La situación financiera al cierre del ejercicio"
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
     },
     {
-      "pregunta": "¿Qué cuenta representa las reservas constituidas al emitir las acciones por encima de su valor nominal?",
-      "opciones": {
-        "A": "Capital social",
-        "B": "Reservas Voluntarias",
-        "C": "Reserva Legal",
-        "D": "Prima de Emisión"
-      },
-      "respuesta_correcta": "D"
+      "nombre": "Tema 8",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál es el objetivo principal de la auditoría en una empresa?",
+          "opciones": {
+            "A": "Detectar irregularidades financieras",
+            "B": "Verificar que los estados financieros reflejen la situación económica real de la entidad",
+            "C": "Evaluar la eficiencia de los procesos internos",
+            "D": "Determinar la responsabilidad de los directivos"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Quién regula la auditoría en España?",
+          "opciones": {
+            "A": "Instituto de Contabilidad y Auditoría de Cuentas (ICAC)",
+            "B": "Ministerio de Trabajo y Seguridad Social",
+            "C": "Tribunal de Cuentas",
+            "D": "Banco de España"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué es el proceso de regularización en el cierre contable?",
+          "opciones": {
+            "A": "El proceso de preparación de estados financieros finales.",
+            "B": "El proceso de ajuste y corrección de las cuentas de la empresa.",
+            "C": "El proceso de inicio de un nuevo ciclo contable.",
+            "D": "El proceso de liquidación del IVA."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es el tipo de auditoría que verifica si la contabilidad refleja la imagen fiel de una empresa?",
+          "opciones": {
+            "A": "Auditoría de gestión",
+            "B": "Auditoría contable",
+            "C": "Auditoría interna",
+            "D": "Auditoría externa"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es el objetivo de la revisión preliminar en el control interno?",
+          "opciones": {
+            "A": "Verificar que los sistemas de control interno se aplican correctamente",
+            "B": "Conocer los métodos y procedimientos de trabajo establecidos por la entidad",
+            "C": "Obtener evidencias para el informe de auditoría",
+            "D": "Evaluar la eficiencia de los procesos internos"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué tipo de auditoría se realiza por un empleado de la propia empresa?",
+          "opciones": {
+            "A": "Auditoría interna",
+            "B": "Auditoría externa",
+            "C": "Auditoría contable",
+            "D": "Auditoría de gestión"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué tipo de auditoría se caracteriza por ser motivada por la propia empresa?",
+          "opciones": {
+            "A": "Auditoría voluntaria",
+            "B": "Auditoría obligatoria",
+            "C": "Auditoría contable",
+            "D": "Auditoría de gestión"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué es el Instituto de Contabilidad y Auditoría de Cuentas (ICAC)?",
+          "opciones": {
+            "A": "Un órgano que forma parte del Ministerio de Economía, Comercio y Empresa",
+            "B": "Un órgano que forma parte del Tribunal de Cuentas",
+            "C": "Un órgano que forma parte del Banco de España",
+            "D": "Un órgano que forma parte de la empresa auditada"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué responsabilidad tienen los auditores?",
+          "opciones": {
+            "A": "Responder de los perjuicios y daños que hayan podido causar por el incumplimiento de sus obligaciones",
+            "B": "Evaluar la eficiencia de los procesos internos",
+            "C": "Detectar irregularidades financieras",
+            "D": "Realizar un informe de gestión"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué técnica de auditoría implica la inspección de las operaciones físicas realizadas en la empresa?",
+          "opciones": {
+            "A": "Documentos",
+            "B": "Confirmación directa",
+            "C": "Observación física",
+            "D": "Revisión analítica"
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
     },
     {
-      "pregunta": "¿Cuál de las siguientes NO es una característica del arrendamiento financiero?",
-      "opciones": {
-        "A": "Contrato de alquiler a largo plazo",
-        "B": "Opción de compra al final del contrato",
-        "C": "Es un contrato de alquiler a corto plazo",
-        "D": "Si se ejerce la opción de compra del bien, se pasa a ser propietario del mismo."
-      },
-      "respuesta_correcta": "C"
+      "nombre": "Tema 9",
+      "tarjetas": [
+        {
+          "pregunta": "¿Qué tipo de coste se genera independientemente del volumen de producción alcanzado?",
+          "opciones": {
+            "A": "Coste Variable.",
+            "B": "Coste Fijo.",
+            "C": "Coste Medio.",
+            "D": "Coste Marginal."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "Cuando una empresa compra bienes y servicios para sus actividades productivas, esto, en términos monetarios, se denomina…",
+          "opciones": {
+            "A": "Gasto",
+            "B": "Coste",
+            "C": "Pago",
+            "D": "Inversión"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué es el beneficio en el contexto empresarial?",
+          "opciones": {
+            "A": "La diferencia entre ingresos y costes.",
+            "B": "La suma de ingresos y costes.",
+            "C": "El resultado de la venta de un producto.",
+            "D": "El coste de producción de un producto."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué se considera un coste directo en la fabricación de un producto?",
+          "opciones": {
+            "A": "El salario de un trabajador que no participa en la fabricación.",
+            "B": "El alquiler de instalaciones.",
+            "C": "El coste de materias primas.",
+            "D": "El costo de mano de obra indirecta"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿A qué se asemeja una sección o centro de costes?",
+          "opciones": {
+            "A": "Un departamento de una empresa.",
+            "B": "Un factor de producción",
+            "C": "Un proceso de producción.",
+            "D": "Un tipo de coste."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué se considera un coste variable en la contabilidad de costes?",
+          "opciones": {
+            "A": "Un coste que cambia en función del nivel de producción.",
+            "B": "Un coste que sucede independientemente del volumen de producción.",
+            "C": "Un coste que se puede asignar directamente a un producto.",
+            "D": "Un coste que se puede imputar a un centro de costes."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "El reparto de los costes indirectos entre las secciones se denomina",
+          "opciones": {
+            "A": "Primario",
+            "B": "Secundario",
+            "C": "Contable",
+            "D": "De gestión"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "El reparto del coste de las secciones auxiliares a las principales, se denomina:",
+          "opciones": {
+            "A": "Primario",
+            "B": "Secundario",
+            "C": "Contable",
+            "D": "De gestión"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "En la estructura de costes, el coste financiero forma parte del…",
+          "opciones": {
+            "A": "Coste industrial",
+            "B": "Coste básico",
+            "C": "Coste de explotación",
+            "D": "Coste de empresa"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "El incremento que tiene el coste total al incrementar la producción en una unidad de producto, se denomina:",
+          "opciones": {
+            "A": "Coste Medio",
+            "B": "Coste total",
+            "C": "coste Marginal",
+            "D": "coste unitario"
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
     },
     {
-      "pregunta": "¿Qué representan las subvenciones en una empresa?",
-      "opciones": {
-        "A": "Ingresos generados por la venta de productos",
-        "B": "Beneficios acumulados",
-        "C": "Ayudas económicas proporcionadas por entidades públicas o privadas",
-        "D": "Inversiones en activos fijos"
-      },
-      "respuesta_correcta": "C"
+      "nombre": "Tema 10",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál es el objetivo principal de la contabilidad de gestión?",
+          "opciones": {
+            "A": "Calcular los impuestos a pagar",
+            "B": "Cumplir con las regulaciones contables",
+            "C": "Captar, medir y valorar la información interna para la toma de decisiones",
+            "D": "Elaborar los estados financieros"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cuál de los siguientes gastos NO se considera relevante para el cálculo y análisis de costes en la contabilidad de gestión?",
+          "opciones": {
+            "A": "Gastos de personal",
+            "B": "Gastos extraordinarios",
+            "C": "Servicios exteriores",
+            "D": "Compras de materias primas"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué tipo de producto incluye el término \"producto\" o \"producción\" en el ámbito productivo?",
+          "opciones": {
+            "A": "Solo el volumen de productos terminados",
+            "B": "Solo el volumen de productos semiterminados",
+            "C": "Solo los productos en curso de fabricación",
+            "D": "El volumen de productos terminados, semiterminados y los productos en curso de fabricación"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Cuál es la diferencia entre un producto terminado y un producto semiterminado?",
+          "opciones": {
+            "A": "No hay diferencia, son lo mismo",
+            "B": "Un producto terminado requiere más procesamiento, mientras que un semiterminado está listo para ser vendido",
+            "C": "Un producto terminado no se le añadirá más valor y está listo para ser vendido, mientras que un semiterminado aún requiere procesamiento adicional",
+            "D": "Un producto terminado se vende a clientes finales, mientras que un semiterminado se vende a otras empresas"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cómo se consideran los descuentos en facturas por defectos de calidad o incumplimiento de plazos en la valoración de los materiales?",
+          "opciones": {
+            "A": "Como un mayor coste de los materiales",
+            "B": "Como un menor coste de los materiales",
+            "C": "No se consideran",
+            "D": "Como un gasto financiero"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es la principal diferencia entre el método de precio medio ponderado y el método FIFO?",
+          "opciones": {
+            "A": "No hay diferencia, ambos métodos dan el mismo resultado",
+            "B": "El método FIFO valora las salidas con los precios de las últimas entradas, mientras que el precio medio ponderado utiliza un precio medio",
+            "C": "El método FIFO valora las salidas con los precios de las primeras entradas, mientras que el precio medio ponderado utiliza un precio medio",
+            "D": "El método FIFO se utiliza para productos no perecederos, mientras que el precio medio ponderado se usa para productos perecederos"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué método de valoración de salidas se utiliza principalmente para artículos con fecha de caducidad?",
+          "opciones": {
+            "A": "Precio medio ponderado",
+            "B": "FIFO",
+            "C": "HIFO",
+            "D": "LIFO"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál de las siguientes afirmaciones sobre el coste de producción es correcta?",
+          "opciones": {
+            "A": "Solo incluye el precio de adquisición de las materias primas",
+            "B": "No incluye costes indirectamente imputables al producto",
+            "C": "No incluye costes directamente imputables al producto",
+            "D": "Incluye el precio de adquisición de las materias primas más los costes directa e indirectamente imputables al producto"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Cuál de las siguientes afirmaciones sobre la contabilidad de gestión es correcta?",
+          "opciones": {
+            "A": "Tiene una dimensión externa y está sujeta a regulaciones",
+            "B": "Proporciona información para la toma de decisiones externas",
+            "C": "Tiene una dimensión interna y mayor flexibilidad que la contabilidad financiera",
+            "D": "Está condicionada a presentar información siguiendo patrones legales"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué tipo de productos se encuentran en una fase específica del proceso de elaboración y aún no están acabados?",
+          "opciones": {
+            "A": "Productos terminados",
+            "B": "Otros aprovisionamientos.",
+            "C": "Productos en curso",
+            "D": "Materias primas"
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
+    },
+    {
+      "nombre": "Tema 11",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál es la característica fundamental del modelo de costes completos (full cost)?",
+          "opciones": {
+            "A": "Considera que todos los costes en los que la empresa ha incurrido formarán parte del producto, independientemente de que sean variables o fijos, directos o indirectos.",
+            "B": "Considera solo los costes variables y directos en el coste del producto.",
+            "C": "Considera solo los costes fijos y directos en el coste del producto.",
+            "D": "Considera solo los costes indirectos en el coste del producto."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuál es una de las ventajas del modelo de costes completos (full cost)?",
+          "opciones": {
+            "A": "No proporciona información adecuada para tomar decisiones específicas.",
+            "B": "No ofrece la información necesaria para establecer una política de precios adecuada.",
+            "C": "Permite comparar el coste final de un producto con su precio de venta, facilitando la medición de su rentabilidad.",
+            "D": "No considera la influencia de las variaciones de actividad en los diferentes costes que componen el coste final del producto."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué tipo de costes imputa el modelo de costes directos (direct cost)?",
+          "opciones": {
+            "A": "Todos los costes, tanto fijos como variables, directos e indirectos.",
+            "B": "Solo los costes fijos y directos.",
+            "C": "Solo los costes variables y directos.",
+            "D": "Solo los costes indirectos."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué se entiende por desviaciones en contabilidad de costes?",
+          "opciones": {
+            "A": "La diferencia que surge entre las cantidades presupuestadas de una partida contable y las cantidades obtenidas finalmente.",
+            "B": "La diferencia entre los costes fijos y los costes variables.",
+            "C": "La diferencia entre los costes directos y los costes indirectos.",
+            "D": "La diferencia entre los costes reales y los costes estándar."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué son las desviaciones exógenas?",
+          "opciones": {
+            "A": "Desviaciones que se deben a causas internas de la empresa.",
+            "B": "Desviaciones que se deben a causas externas a la empresa.",
+            "C": "Desviaciones que se deben a errores en la contabilización.",
+            "D": "Desviaciones que se deben a cambios en la productividad de los trabajadores."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué son las desviaciones endógenas?",
+          "opciones": {
+            "A": "Desviaciones que se deben a causas externas a la empresa.",
+            "B": "Desviaciones que se deben a causas internas de la empresa.",
+            "C": "Desviaciones que se deben a acontecimientos imprevistos y excepcionales.",
+            "D": "Desviaciones que se deben a acontecimientos externos y que se prevén que vuelvan a repetirse."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es el modelo de costes que imputa al producto solo los costes de producción y a la cuenta de pérdidas y ganancias los costes de administración y comerciales?",
+          "opciones": {
+            "A": "Full cost literal",
+            "B": "Full cost industrial",
+            "C": "Direct cost",
+            "D": "Costes anticipados"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "Señala la afirmación correcta:",
+          "opciones": {
+            "A": "El umbral de rentabilidad es el volumen de ventas que debe alcanzar la empresa para que su resultado sea negativo.",
+            "B": "El estudio del apalancamiento financiero pone de manifiesto si el nivel de endeudamiento de la empresa perjudica o favorece la rentabilidad financiera",
+            "C": "El umbral de rentabilidad es el volumen de ventas que debe alcanzar la empresa para que su resultado sea 100.",
+            "D": "El umbral de rentabilidad establece el precio de venta al cual se deben vender los productos."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es una de las causas de las desviaciones endógenas de tipo técnico?",
+          "opciones": {
+            "A": "Cambios en las bandas salariales.",
+            "B": "Modificación de las primas e incentivos al rendimiento.",
+            "C": "Deficiencias en las herramientas utilizadas o en la maquinaria.",
+            "D": "Errores a la hora de realizar la contabilización o establecer el estándar."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cuál es una de las causas de las desviaciones endógenas de tipo económico?",
+          "opciones": {
+            "A": "Alteración en la productividad de los trabajadores de la empresa.",
+            "B": "Cambios en las primas e incentivos al rendimiento.",
+            "C": "Deficiencias en las herramientas utilizadas o en la maquinaria.",
+            "D": "Cuellos de botella en los procesos empresariales."
+          },
+          "respuesta_correcta": "B"
+        }
+      ]
+    },
+    {
+      "nombre": "Tema 12",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál es el propósito principal del análisis de estados financieros?",
+          "opciones": {
+            "A": "Generar más ingresos.",
+            "B": "Identificar oportunidades de inversión.",
+            "C": "Facilitar la toma de decisiones.",
+            "D": "Aumentar la deuda de la empresa."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué elemento se clasifica como activo funcional en el balance funcional?",
+          "opciones": {
+            "A": "Inversiones en otras empresas.",
+            "B": "Equipos para procesos de información utilizados en el día a día.",
+            "C": "Vivienda para los trabajadores.",
+            "D": "Inversiones en bonos del estado"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué es un análisis dinámico en el contexto financiero?",
+          "opciones": {
+            "A": "Estudio de la situación de la empresa en un momento específico.",
+            "B": "Evaluación de la empresa a lo largo del tiempo.",
+            "C": "Comparación de la empresa con sus competidores.",
+            "D": "Revisión de la contabilidad actual de la empresa."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál de las siguientes técnicas no es un método de análisis de estados financieros?",
+          "opciones": {
+            "A": "Ratios.",
+            "B": "Números índices.",
+            "C": "Diferencias en valores absolutos.",
+            "D": "Métodos de predicción."
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "¿Qué se describe en la sección \"Identificación de la Empresa\" en un informe financiero?",
+          "opciones": {
+            "A": "Información básica sobre la empresa.",
+            "B": "Objetivos financieros futuros.",
+            "C": "Estrategias de marketing.",
+            "D": "Evaluación de la competencia"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué significa \"tesorería pasiva\" en el balance funcional?",
+          "opciones": {
+            "A": "Recursos disponibles en efectivo.",
+            "B": "Saldos con acreedores.",
+            "C": "Inversiones a largo plazo.",
+            "D": "Reservas financieras."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es la principal diferencia entre un análisis estático y un análisis dinámico?",
+          "opciones": {
+            "A": "El primero es interno y el segundo es externo.",
+            "B": "El estático se enfoca en un momento específico, el dinámico en la evolución.",
+            "C": "El estático se basa en datos futuros, el dinámico en datos presentes.",
+            "D": "El estático compara empresas, el dinámico no."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué tipo de elementos no se consideran estrictamente necesarios para la actividad principal en el balance funcional?",
+          "opciones": {
+            "A": "Activos corrientes.",
+            "B": "Pasivos operativos.",
+            "C": "Activos extrafuncionales.",
+            "D": "Pasivos no operativos."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué se debe incluir en el apartado de \"Conclusiones\" de un informe financiero?",
+          "opciones": {
+            "A": "La estrategia de marketing.",
+            "B": "Un resumen de los hallazgos principales.",
+            "C": "Las políticas de recursos humanos.",
+            "D": "La estructura organizativa."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué se busca al estructurar adecuadamente los datos contables?",
+          "opciones": {
+            "A": "Aumentar los costos operativos.",
+            "B": "Mejorar las relaciones con los proveedores.",
+            "C": "Aclarar y hacer significativas las interrelaciones de los datos.",
+            "D": "Simplificar la contabilidad."
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
+    },
+    {
+      "nombre": "Tema 13",
+      "tarjetas": [
+        {
+          "pregunta": "¿Qué es el ciclo de maduración?",
+          "opciones": {
+            "A": "El tiempo que tarda una empresa en liquidar todas sus deudas",
+            "B": "El plazo en días desde la compra de materia prima hasta el cobro del cliente",
+            "C": "El período para la depreciación de activos no corrientes",
+            "D": "El ciclo de producción de una empresa"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué implica un ciclo de maduración más corto?",
+          "opciones": {
+            "A": "Menores necesidades de financiación",
+            "B": "Mayor inversión en activos fijos",
+            "C": "Aumento del pasivo no corriente",
+            "D": "Menor rotación de inventarios"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuál es el primer paso en el ciclo de maduración?",
+          "opciones": {
+            "A": "Producción de bienes",
+            "B": "Venta al cliente",
+            "C": "Adquisición de materia prima",
+            "D": "Cobro al cliente"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Cuál es la consecuencia de financiar el activo corriente únicamente con deudas a corto plazo?",
+          "opciones": {
+            "A": "Incremento de la rentabilidad a largo plazo",
+            "B": "Riesgo significativo de desajuste financiero",
+            "C": "Reducción del capital social",
+            "D": "Mejora inmediata de la liquidez"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué es el fondo de maniobra?",
+          "opciones": {
+            "A": "La diferencia entre el activo corriente y el pasivo corriente",
+            "B": "La cantidad total de activos fijos",
+            "C": "El capital social de la empresa",
+            "D": "La suma de pasivos no corrientes"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué refleja el análisis patrimonial?",
+          "opciones": {
+            "A": "La estructura de ingresos y gastos",
+            "B": "La composición de activos, pasivos y patrimonio neto",
+            "C": "La rotación de inventarios",
+            "D": "La capacidad de inversión en nuevos proyectos"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué es la solvencia empresarial?",
+          "opciones": {
+            "A": "Capacidad de una empresa para generar ingresos",
+            "B": "Capacidad de una empresa para cumplir sus obligaciones de pago",
+            "C": "La cantidad de ventas anuales",
+            "D": "La estructura del capital social"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué función tiene el fondo de maniobra en el ciclo de explotación?",
+          "opciones": {
+            "A": "Financiar inversiones a largo plazo",
+            "B": "Asegurar la liquidez y el funcionamiento operativo diario",
+            "C": "Incrementar los pasivos no corrientes",
+            "D": "Reducir el activo corriente"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué puede causar un fondo de maniobra negativo?",
+          "opciones": {
+            "A": "Problemas de liquidez y solvencia",
+            "B": "Aumento del patrimonio neto",
+            "C": "Mejora de la rentabilidad a corto plazo",
+            "D": "Incremento en la producción"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuál es la importancia de analizar las fuentes de financiación en una empresa?",
+          "opciones": {
+            "A": "Para conocer las ventas anuales",
+            "B": "Para entender cómo se financian los activos",
+            "C": "Para incrementar los gastos operativos",
+            "D": "Para reducir el patrimonio neto"
+          },
+          "respuesta_correcta": "B"
+        }
+      ]
+    },
+    {
+      "nombre": "Tema 14",
+      "tarjetas": [
+        {
+          "pregunta": "¿Qué representa el EBITDA en una empresa?",
+          "opciones": {
+            "A": "Ingresos netos después de impuestos",
+            "B": "Ingresos operativos excluyendo intereses, impuestos, depreciación y amortización",
+            "C": "Costes fijos de la empresa",
+            "D": "Valor total de los activos"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es la fórmula para calcular el cash flow económico?",
+          "opciones": {
+            "A": "Beneficios Netos más Amortizaciones más Provisiones",
+            "B": "Ingresos Totales menos Costes Totales",
+            "C": "Activo Total menos Pasivo Total",
+            "D": "Beneficio Neto menos Impuestos"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué mide la rentabilidad económica?",
+          "opciones": {
+            "A": "El beneficio después de impuestos sobre el capital social",
+            "B": "El beneficio antes de intereses e impuestos sobre el activo total",
+            "C": "Los ingresos totales menos los gastos variables",
+            "D": "El flujo de caja neto"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué indica el umbral de rentabilidad?",
+          "opciones": {
+            "A": "El punto en el que los ingresos cubren todos los costes fijos y variables",
+            "B": "El nivel de endeudamiento óptimo",
+            "C": "El porcentaje de retorno sobre la inversión",
+            "D": "El valor de mercado de los activos"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuál es el umbral de rentabilidad de una empresa que vende sus productos a 10€, tiene unos costes fijos de 10.000€ y el coste variable unitario es de 5€/unidad?",
+          "opciones": {
+            "A": "15.000 unidades",
+            "B": "2.000 unidades",
+            "C": "667 unidades",
+            "D": "10.000 unidades"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué mide el cash flow financiero?",
+          "opciones": {
+            "A": "La diferencia entre las entradas y salidas de dinero durante un periodo específico",
+            "B": "Los beneficios netos después de impuestos",
+            "C": "El valor total de los activos menos los pasivos",
+            "D": "Los ingresos operativos excluyendo intereses y amortización"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué muestra el resultado de explotación en una empresa?",
+          "opciones": {
+            "A": "Beneficio neto después de impuestos",
+            "B": "Beneficio operativo antes de deducir los intereses e impuestos",
+            "C": "Flujo de caja libre",
+            "D": "Ratio de endeudamiento"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué refleja el beneficio neto en la cuenta de pérdidas y ganancias?",
+          "opciones": {
+            "A": "Los ingresos totales antes de cualquier deducción",
+            "B": "Los beneficios después de deducir todos los gastos, incluidos los impuestos",
+            "C": "Los ingresos operativos menos los costes variables",
+            "D": "El flujo de caja operativo"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué efecto tiene el uso excesivo de deuda en una empresa?",
+          "opciones": {
+            "A": "Incrementa la liquidez",
+            "B": "Disminuye el riesgo financiero",
+            "C": "Aumenta el riesgo de insolvencia",
+            "D": "Mejora la rentabilidad operativa"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué mide el ratio de rentabilidad financiera (ROE)?",
+          "opciones": {
+            "A": "La eficiencia en el uso de los activos totales",
+            "B": "La rentabilidad para los accionistas",
+            "C": "La relación entre ventas y beneficios operativos",
+            "D": "El flujo de caja generado por las operaciones"
+          },
+          "respuesta_correcta": "B"
+        }
+      ]
+    },
+    {
+      "nombre": "Tema 15",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cuál es el primer paso para efectuar las operaciones de contabilización en CONTASOL?",
+          "opciones": {
+            "A": "Acceder al menú Diario",
+            "B": "Acceder al menú Empresa",
+            "C": "Acceder al menú Archivo",
+            "D": "Acceder al menú Contabilidad"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué tipo de contabilización se puede elegir al configurar una nueva empresa en CONTASOL?",
+          "opciones": {
+            "A": "Solo contabilidad general",
+            "B": "Solo estimación directa",
+            "C": "Contabilidad general y estimación directa",
+            "D": "Estimación indirecta y contabilidad general"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿En qué menú se encuentra la opción para realizar una copia de seguridad en CONTASOL?",
+          "opciones": {
+            "A": "Empresa",
+            "B": "Diario",
+            "C": "Archivo",
+            "D": "Seguridad"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué información se introduce en la pestaña \"Datos Generales\" al dar de alta una empresa en CONTASOL?",
+          "opciones": {
+            "A": "Datos de contacto y registrales de la empresa",
+            "B": "Datos de localización, contacto y de acceso",
+            "C": "Información sobre tipos impositivos",
+            "D": "Ejercicio contable que desarrolla"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué se debe hacer antes de introducir los asientos contables en CONTASOL?",
+          "opciones": {
+            "A": "Seleccionar el PGC",
+            "B": "Realizar una copia de seguridad",
+            "C": "Emitir un informe",
+            "D": "Realizar el proceso automático de cierre"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿En qué pestaña se introduce el primer asiento contable en CONTASOL?",
+          "opciones": {
+            "A": "Empresa",
+            "B": "Diario",
+            "C": "Archivo",
+            "D": "Contabilidad"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué opción se utiliza para generar el balance de situación en CONTASOL?",
+          "opciones": {
+            "A": "Pestaña Diario",
+            "B": "Pestaña Empresa",
+            "C": "Pestaña Impresión",
+            "D": "Pestaña Seguridad"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Qué se debe hacer para acceder al alta de clientes en CONTASOL?",
+          "opciones": {
+            "A": "Ir a la pestaña Diario y pulsar sobre Introducción de asientos",
+            "B": "Ir a la pestaña Empresa y pulsar sobre Clientes",
+            "C": "Ir a la pestaña Seguridad y pulsar sobre Copia de seguridad",
+            "D": "Ir a la pestaña Impresión y seleccionar Cuentas anuales"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es una ventaja de usar el software CONTASOL para el proceso de cierre?",
+          "opciones": {
+            "A": "Permite la realización manual del proceso de cierre",
+            "B": "Permite la realización automática del proceso de cierre",
+            "C": "No requiere copias de seguridad",
+            "D": "No permite emitir informes financieros"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Qué tipo de operaciones se pueden gestionar desde los iconos Repercutido/Soportado en CONTASOL?",
+          "opciones": {
+            "A": "Operaciones de clientes",
+            "B": "Operaciones de proveedores",
+            "C": "Registros del impuesto sobre el valor añadido",
+            "D": "Asientos contables"
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
     }
   ]
 }
