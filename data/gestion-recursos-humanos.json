@@ -1,7 +1,9 @@
 {
   "asignatura": "Gestión de Recursos Humanos",
-  "tema": "Tema 1",
-  "preguntas": [
+  "temas": [
+    {
+      "nombre": "Tema 1",
+      "tarjetas": [
     {
       
       "pregunta": "Además de en el Estatuto de los Trabajadores (ET), ¿en qué otro documento se regulan las licencias y permisos?",
@@ -102,6 +104,113 @@
         "D": "Ninguna de las anteriores."
       },
       "respuesta_correcta": "C"
+    }
+      ]
+    },
+    {
+      "nombre": "Tema 2",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cómo debe ser el objeto del contrato de trabajo?:",
+          "opciones": {
+            "A": "Determinante, posible y lícito.",
+            "B": "Determinado, posible y lícito.",
+            "C": "Lícito y posible, aunque sea indeterminado.",
+            "D": "Ninguna de las anteriores es correcta."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "Sandra es una chica de 17 años que vive con sus padres, puede firmar un contrato de trabajo?",
+          "opciones": {
+            "A": "No, debe ser mayor de edad.",
+            "B": "Si, porque está emancipada.",
+            "C": "Si, siempre que lo autorice la representación legal de los trabajadores de la empresa.",
+            "D": "Ninguna de las anteriores es correcta."
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "Matías lleva trabajando 4 meses en un taller de reparación de coches y el propietario no ha formalizado el contrato indefinido por escrito, ¿puede Matías solicitar que se recoja por escrito?",
+          "opciones": {
+            "A": "No, debe hacerse al inicio de la relación laboral.",
+            "B": "Si, cualquiera de las partes puede solicitarlo en cualquier momento.",
+            "C": "Si, sólo el trabajador puede solicitarlo en cualquier momento.",
+            "D": "Ninguna de las anteriores es correcta."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "Desde el inicio de la relación laboral, ¿Cuál es el plazo para registrar un contrato de un trabajador en el Servicio Público de Empleo?",
+          "opciones": {
+            "A": "3 días",
+            "B": "5 días",
+            "C": "10 días",
+            "D": "60 días"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿El Servicio Público de Empleo realiza contratos de puesta a disposición?",
+          "opciones": {
+            "A": "No, en ningún caso.",
+            "B": "Si, siempre.",
+            "C": "No, salvo que las empresas contraten ese servicio.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿El trabajador puede decidir sobre los días de vacaciones que se recojan en el contrato de trabajo?",
+          "opciones": {
+            "A": "Si, puede elegir incluso el número de días.",
+            "B": "Si, pero solo puede elegir si disfrutará días naturales o laborables.",
+            "C": "Si, puede elegir el número de días y si son laborables o naturales.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "SI queremos contratar una persona que sustituya la baja de paternidad de un trabajador. ¿Qué contrato utilizaremos?",
+          "opciones": {
+            "A": "El contrato de sustitución.",
+            "B": "El contrato de obra o servicio.",
+            "C": "El contrato en prácticas.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "La duración máxima de un contrato para personal investigador en formación es de:",
+          "opciones": {
+            "A": "1 año.",
+            "B": "No tiene duración determinada.",
+            "C": "4 años.",
+            "D": "Ninguna de las anteriores es correcta."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "Rescindir un contrato en el periodo de prueba ¿Da lugar a indemnización del trabajador?",
+          "opciones": {
+            "A": "Si, si en el caso de periodos de prueba de 6 meses.",
+            "B": "Si.",
+            "C": "No.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Podemos contratar a un trabajador extranjero que no resida en España, aunque no sea comunitario?",
+          "opciones": {
+            "A": "No, solo podemos contratar ciudadanos de la UE.",
+            "B": "No, nunca.",
+            "C": "Si, aunque el trámite y los requisitos son diferentes, si se trata de ciudadanos comunitarios o no.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
     }
   ]
 }
