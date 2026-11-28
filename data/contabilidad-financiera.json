@@ -1,0 +1,106 @@
+{
+  "asignatura": "Contabilidad Financiera",
+  "tema": "Tema 1",
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es el propósito principal de un Plan General Contable?",
+      "opciones": {
+        "A": "Regular las relaciones laborales",
+        "B": "Establecer normas de seguridad",
+        "C": "Establecer criterios contables comunes",
+        "D": "Regular el mercado de valores"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué representa el pasivo en el balance de una empresa?",
+      "opciones": {
+        "A": "Deudas y obligaciones",
+        "B": "Activos y recursos",
+        "C": "Beneficios acumulados",
+        "D": "Inversiones a largo plazo"
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "¿En qué consiste el factoring?",
+      "opciones": {
+        "A": "Venta de cuentas por cobrar a terceros",
+        "B": "Emisión de bonos en el mercado de valores",
+        "C": "Obtención de préstamos bancarios",
+        "D": "Adquisición de activos fijos"
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no es un tipo de financiación propia?",
+      "opciones": {
+        "A": "Capital social",
+        "B": "Reservas acumuladas",
+        "C": "Préstamos bancarios",
+        "D": "Beneficios no distribuidos"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué es el capital social de una empresa?",
+      "opciones": {
+        "A": "Deudas acumuladas",
+        "B": "Recursos aportados por los accionistas",
+        "C": "Beneficios retenidos",
+        "D": "Intereses sobre préstamos"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué tipo de financiamiento implica el alquiler a largo plazo de un activo con opción de compra?",
+      "opciones": {
+        "A": "Factoring",
+        "B": "Crowdfunding",
+        "C": "Arrendamiento financiero",
+        "D": "Emisión de bonos"
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué son las reservas acumuladas en una empresa?",
+      "opciones": {
+        "A": "Recursos aportados por los accionistas",
+        "B": "Beneficios no distribuidos",
+        "C": "Deudas pendientes de pago",
+        "D": "Inversiones en activos fijos"
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "¿Qué cuenta representa las reservas constituidas al emitir las acciones por encima de su valor nominal?",
+      "opciones": {
+        "A": "Capital social",
+        "B": "Reservas Voluntarias",
+        "C": "Reserva Legal",
+        "D": "Prima de Emisión"
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes NO es una característica del arrendamiento financiero?",
+      "opciones": {
+        "A": "Contrato de alquiler a largo plazo",
+        "B": "Opción de compra al final del contrato",
+        "C": "Es un contrato de alquiler a corto plazo",
+        "D": "Si se ejerce la opción de compra del bien, se pasa a ser propietario del mismo."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "¿Qué representan las subvenciones en una empresa?",
+      "opciones": {
+        "A": "Ingresos generados por la venta de productos",
+        "B": "Beneficios acumulados",
+        "C": "Ayudas económicas proporcionadas por entidades públicas o privadas",
+        "D": "Inversiones en activos fijos"
+      },
+      "respuesta_correcta": "C"
+    }
+  ]
+}

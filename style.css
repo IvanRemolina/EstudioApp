@@ -167,6 +167,73 @@ h2 {
   margin: 25px 0;
 }
 
+.quiz-question {
+  min-height: 190px;
+  padding: 28px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #e4e6f4;
+  border-radius: 24px;
+  box-shadow: 0 18px 50px #26386d16;
+}
+
+.quiz-question .card-text {
+  margin-bottom: 0;
+}
+
+.quiz-options {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.quiz-option {
+  padding: 15px 18px;
+  text-align: left;
+  color: #39445f;
+  background: #fff;
+  border: 1px solid #e1e5ef;
+  border-radius: 13px;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.quiz-option:not(:disabled):hover {
+  border-color: #8c75df;
+  background: #faf9ff;
+}
+
+.quiz-option:disabled {
+  cursor: default;
+}
+
+.quiz-option.correct {
+  color: #17653b;
+  background: #e7f7ed;
+  border-color: #45ad6c;
+}
+
+.quiz-option.incorrect {
+  color: #9f2838;
+  background: #fff0f1;
+  border-color: #d84a5a;
+}
+
+.quiz-feedback {
+  min-height: 1.5em;
+  margin: 15px 0 0;
+  text-align: center;
+  font-weight: 750;
+}
+
+.quiz-feedback.correct-feedback {
+  color: #17653b;
+}
+
+.quiz-feedback.incorrect-feedback {
+  color: #b52e47;
+}
+
 .card-hint {
   color: #929ab0;
   font-size: 0.8rem;
@@ -188,6 +255,55 @@ h2 {
   border: 1px solid #e8ebf3;
   border-radius: 20px;
   box-shadow: 0 12px 35px #273a7010;
+}
+
+.mode-picker {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.mode-option {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 12px;
+  padding: 16px;
+  text-align: left;
+  color: #33405f;
+  background: #fff;
+  border: 2px solid #e8ebf3;
+  border-radius: 16px;
+}
+
+.mode-option.selected {
+  border-color: #7050d5;
+  background: #f8f6ff;
+  box-shadow: 0 5px 18px #7050d51a;
+}
+
+.mode-icon {
+  display: grid;
+  grid-row: span 2;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  color: #7050d5;
+  background: #eee9ff;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.mode-title {
+  font-weight: 800;
+}
+
+.mode-description {
+  color: #78819a;
+  font-size: 0.82rem;
+  line-height: 1.4;
 }
 
 .library-actions,
@@ -334,6 +450,19 @@ input:focus-visible {
   .card {
     min-height: 290px;
     padding: 24px;
+  }
+
+  .mode-picker {
+    grid-template-columns: 1fr;
+  }
+
+  .mode-option {
+    padding: 13px;
+  }
+
+  .quiz-question {
+    min-height: 160px;
+    padding: 22px;
   }
 
   .actions button {

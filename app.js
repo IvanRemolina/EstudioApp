@@ -9,39 +9,70 @@ let position = 0;
 let showingAnswer = false;
 let lastQuestion = null;
 let touchStart = null;
+let studyMode = "cards";
 
-function showCard() {
+function showQuestion() {
   const item = deck[position];
-
-  $("card-label").textContent = showingAnswer ? "Respuesta" : "Pregunta";
-  $("card-text").textContent = showingAnswer ? item.respuesta : item.pregunta;
-  $("card").classList.toggle("answer", showingAnswer);
-  $("card").setAttribute(
-    "aria-label",
-    showingAnswer ? "Respuesta. Mostrar pregunta" : "Pregunta. Mostrar respuesta"
-  );
-  $("flip").textContent = showingAnswer
-    ? "Volver a la pregunta"
-    : "Ver respuesta";
   $("counter").textContent = `Pregunta ${position + 1} de ${deck.length}`;
   $("remaining").textContent = `Quedan ${deck.length - position - 1}`;
   $("progress-fill").style.width = `${(position + 1) / deck.length * 100}%`;
-  $("next").textContent = position === deck.length - 1
-    ? "Terminar ronda ✓"
+
+  if (studyMode === "cards") {
+    $("cards-view").hidden = false;
+    $("quiz-view").hidden = true;
+    $("keyboard-help").hidden = false;
+    $("card-label").textContent = showingAnswer ? "Respuesta" : "Pregunta";
+    $("card-text").textContent = showingAnswer ? item.respuesta : item.pregunta;
+    $("card").classList.toggle("answer", showingAnswer);
+    $("card").setAttribute(
+      "aria-label",
+      showingAnswer ? "Respuesta. Mostrar pregunta" : "Pregunta. Mostrar respuesta"
+    );
+    $("flip").textContent = showingAnswer
+      ? "Volver a la pregunta"
+      : "Ver respuesta";
+    $("next").textContent = position === deck.length - 1
+      ? "Terminar ronda ✓"
+      : "Siguiente pregunta →";
+    return;
+  }
+
+  $("cards-view").hidden = true;
+  $("quiz-view").hidden = false;
+  $("keyboard-help").hidden = true;
+  $("quiz-question-text").textContent = item.pregunta;
+  $("quiz-feedback").textContent = "";
+  $("quiz-feedback").className = "quiz-feedback";
+  $("quiz-next").disabled = true;
+  $("quiz-next").textContent = position === deck.length - 1
+    ? "Terminar test ✓"
     : "Siguiente pregunta →";
+  $("quiz-options").replaceChildren();
+
+  item.opciones.forEach((option, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "quiz-option";
+    button.textContent = `${option.etiqueta}. ${option.texto}`;
+    button.addEventListener("click", () => selectQuizAnswer(index));
+    $("quiz-options").append(button);
+  });
+}
+
+function shuffle(items) {
+  const shuffled = items.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 }
 
 function startRound() {
-  deck = questions.slice();
-
-  for (let i = deck.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [deck[i], deck[j]] = [deck[j], deck[i]];
-  }
+  deck = shuffle(questions);
 
   if (deck.length > 1 && deck[0] === lastQuestion) {
-    const j = 1 + Math.floor(Math.random() * (deck.length - 1));
-    [deck[0], deck[j]] = [deck[j], deck[0]];
+    [deck[0], deck[1]] = [deck[1], deck[0]];
   }
 
   position = 0;
@@ -49,22 +80,56 @@ function startRound() {
   $("library").hidden = true;
   $("complete").hidden = true;
   $("study").hidden = false;
-  showCard();
+  showQuestion();
 }
 
 function setAnswer(value) {
   showingAnswer = value;
-  showCard();
+  showQuestion();
 }
 
 function validateCatalogItem(item, subjectName, topicName) {
-  if (
-    !item ||
-    typeof item.pregunta !== "string" ||
-    !item.pregunta.trim() ||
-    typeof item.respuesta !== "string" ||
-    !item.respuesta.trim()
-  ) {
+  if (!item || typeof item.pregunta !== "string" || !item.pregunta.trim()) {
+    throw new Error(
+      `Una pregunta de «${subjectName} / ${topicName}» no tiene un texto válido.`
+    );
+  }
+
+  if (item.opciones !== undefined || item.respuesta_correcta !== undefined) {
+    if (
+      !item.opciones ||
+      typeof item.opciones !== "object" ||
+      Array.isArray(item.opciones) ||
+      typeof item.respuesta_correcta !== "string"
+    ) {
+      throw new Error(
+        `La pregunta «${item.pregunta}» de «${subjectName} / ${topicName}» tiene opciones o respuesta correcta inválidas.`
+      );
+    }
+
+    const entries = Object.entries(item.opciones);
+    if (
+      entries.length < 2 ||
+      entries.some(([, text]) => typeof text !== "string" || !text.trim()) ||
+      !Object.hasOwn(item.opciones, item.respuesta_correcta)
+    ) {
+      throw new Error(
+        `La pregunta «${item.pregunta}» de «${subjectName} / ${topicName}» necesita al menos dos opciones y una respuesta correcta válida.`
+      );
+    }
+
+    return {
+      pregunta: item.pregunta.trim(),
+      respuesta: item.opciones[item.respuesta_correcta].trim(),
+      opciones: entries.map(([key, text]) => ({
+        etiqueta: key,
+        texto: text.trim(),
+        correcta: key === item.respuesta_correcta
+      }))
+    };
+  }
+
+  if (typeof item.respuesta !== "string" || !item.respuesta.trim()) {
     throw new Error(
       `Una tarjeta de «${subjectName} / ${topicName}» no tiene pregunta o respuesta válida.`
     );
@@ -72,8 +137,84 @@ function validateCatalogItem(item, subjectName, topicName) {
 
   return {
     pregunta: item.pregunta.trim(),
-    respuesta: item.respuesta.trim()
+    respuesta: item.respuesta.trim(),
+    opciones: null
   };
+}
+
+function prepareQuizQuestions(selected) {
+  const answers = [...new Set(selected.flatMap(item => [
+    item.respuesta,
+    ...(item.opciones || []).map(option => option.texto)
+  ]))];
+  if (selected.some(item =>
+    !item.opciones && !answers.some(answer => answer !== item.respuesta)
+  )) {
+    throw new Error(
+      "El modo tipo test necesita al menos dos respuestas distintas para crear opciones."
+    );
+  }
+
+  return selected.map(item => {
+    if (item.opciones) {
+      return { ...item, opciones: shuffle(item.opciones) };
+    }
+
+    const distractors = shuffle(answers.filter(answer => answer !== item.respuesta))
+      .slice(0, 3);
+    const options = shuffle([
+      { texto: item.respuesta, correcta: true },
+      ...distractors.map(texto => ({ texto, correcta: false }))
+    ]).map((option, index) => ({
+      ...option,
+      etiqueta: String.fromCharCode(65 + index)
+    }));
+
+    return { ...item, opciones: options };
+  });
+}
+
+function selectQuizAnswer(selectedIndex) {
+  const item = deck[position];
+  const buttons = [...$("quiz-options").querySelectorAll(".quiz-option")];
+  const selected = item.opciones[selectedIndex];
+  buttons.forEach((button, index) => {
+    button.disabled = true;
+    if (item.opciones[index].correcta) {
+      button.classList.add("correct");
+    }
+  });
+
+  const correct = selected.correcta;
+  if (!correct) {
+    buttons[selectedIndex].classList.add("incorrect");
+    $("quiz-feedback").textContent =
+      `No has acertado. La respuesta correcta es: ${item.respuesta}`;
+    $("quiz-feedback").classList.add("incorrect-feedback");
+  } else {
+    $("quiz-feedback").textContent = "¡Correcto! Has acertado.";
+    $("quiz-feedback").classList.add("correct-feedback");
+  }
+
+  $("quiz-next").disabled = false;
+}
+
+function advanceQuestion() {
+  lastQuestion = deck[position];
+  position++;
+
+  if (position === deck.length) {
+    $("study").hidden = true;
+    $("complete-text").textContent = studyMode === "quiz"
+      ? `Has respondido ${deck.length === 1 ? "la única pregunta" : `las ${deck.length} preguntas`}.`
+      : `Has visto ${deck.length === 1 ? "la única tarjeta" : `las ${deck.length} tarjetas`} sin repetir.`;
+    $("complete").hidden = false;
+    $("restart").focus();
+    return;
+  }
+
+  showingAnswer = false;
+  showQuestion();
 }
 
 function syncSubject(subjectId) {
@@ -140,11 +281,8 @@ function renderLibrary() {
           `[data-topic-subject="${subjectIndex}"]`
         )];
         subjectCheckbox.checked = topics.every(input => input.checked);
-        if (topics.some(input => input.checked) && !topics.every(input => input.checked)) {
-          subjectCheckbox.indeterminate = true;
-        } else {
-          subjectCheckbox.indeterminate = false;
-        }
+        subjectCheckbox.indeterminate =
+          topics.some(input => input.checked) && !topics.every(input => input.checked);
         syncAllCheckbox();
       });
 
@@ -160,6 +298,17 @@ function renderLibrary() {
   $("select-all").indeterminate = false;
   $("library").hidden = false;
 }
+
+document.querySelectorAll(".mode-option").forEach(button => {
+  button.addEventListener("click", () => {
+    studyMode = button.dataset.mode;
+    document.querySelectorAll(".mode-option").forEach(option => {
+      const selected = option === button;
+      option.classList.toggle("selected", selected);
+      option.setAttribute("aria-pressed", String(selected));
+    });
+  });
+});
 
 $("select-all").addEventListener("change", event => {
   const checked = event.target.checked;
@@ -184,7 +333,7 @@ $("start").addEventListener("click", () => {
         if (topicInput?.checked) {
           if (!Array.isArray(topic.tarjetas) || !topic.tarjetas.length) {
             throw new Error(
-              `El tema «${subject.asignatura} / ${topic.nombre}» no contiene tarjetas.`
+              `El tema «${subject.asignatura} / ${topic.nombre}» no contiene preguntas.`
             );
           }
 
@@ -203,7 +352,7 @@ $("start").addEventListener("click", () => {
       throw new Error("Selecciona al menos una asignatura o tema.");
     }
 
-    questions = selected;
+    questions = studyMode === "quiz" ? prepareQuizQuestions(selected) : selected;
     lastQuestion = null;
     $("message").textContent = "";
     startRound();
@@ -220,26 +369,14 @@ $("flip").addEventListener("click", () => {
   setAnswer(!showingAnswer);
 });
 
-$("next").addEventListener("click", () => {
-  lastQuestion = deck[position];
-  position++;
-
-  if (position === deck.length) {
-    $("study").hidden = true;
-    $("complete-text").textContent =
-      `Has visto ${deck.length === 1 ? "la única tarjeta" : `las ${deck.length} tarjetas`} sin repetir.`;
-    $("complete").hidden = false;
-    $("restart").focus();
-    return;
-  }
-
-  showingAnswer = false;
-  showCard();
-});
+$("next").addEventListener("click", advanceQuestion);
+$("quiz-next").addEventListener("click", advanceQuestion);
 
 $("restart").addEventListener("click", () => {
   startRound();
-  $("card").focus();
+  if (studyMode === "cards") {
+    $("card").focus();
+  }
 });
 
 $("card").addEventListener("touchstart", event => {
@@ -273,6 +410,7 @@ $("card").addEventListener("touchcancel", () => {
 
 document.addEventListener("keydown", event => {
   if (
+    studyMode !== "cards" ||
     $("study").hidden ||
     event.altKey ||
     event.ctrlKey ||
@@ -320,15 +458,23 @@ async function loadLibrary() {
 
       const subject = await response.json();
 
-      if (
-        !subject ||
-        typeof subject.asignatura !== "string" ||
-        !Array.isArray(subject.temas)
-      ) {
+      if (!subject || typeof subject.asignatura !== "string") {
         throw new Error(`${entry.archivo} tiene un formato JSON no compatible.`);
       }
 
-      catalog.push(subject);
+      if (Array.isArray(subject.preguntas)) {
+        catalog.push({
+          asignatura: subject.asignatura,
+          temas: [{
+            nombre: typeof subject.tema === "string" ? subject.tema : "General",
+            tarjetas: subject.preguntas
+          }]
+        });
+      } else if (Array.isArray(subject.temas)) {
+        catalog.push(subject);
+      } else {
+        throw new Error(`${entry.archivo} tiene un formato JSON no compatible.`);
+      }
     }
 
     if (!catalog.length) {

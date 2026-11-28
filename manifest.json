@@ -1,6 +1,9 @@
 {
   "asignaturas": [
     {
+      "archivo": "data/contabilidad-financiera.json"
+    },
+    {
       "archivo": "data/desarrollo-web.json"
     },
     {
