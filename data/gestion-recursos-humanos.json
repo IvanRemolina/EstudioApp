@@ -1,0 +1,321 @@
+{
+  "asignatura": "Gestión de Recursos Humanos",
+  "temas": [
+    {
+      "nombre": "Tema 1",
+      "tarjetas": [
+    {
+      
+      "pregunta": "Además de en el Estatuto de los Trabajadores (ET), ¿en qué otro documento se regulan las licencias y permisos?",
+      "opciones": {
+        "A": "En el BOE.",
+        "B": "En el convenio colectivo.",
+        "C": "En los acuerdos privados entre la patronal y los trabajadores.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "¿Con cuántos trabajadores se exige actualmente el plan de igualdad en las empresas?",
+      "opciones": {
+        "A": "Con 50 o más trabajadores.",
+        "B": "Con 100 o más trabajadores.",
+        "C": "Con 150 o más trabajadores.",
+        "D": "Con 250 o más trabajadores."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "El trabajo a distancia es:",
+      "opciones": {
+        "A": "El trabajo que se realiza en otro despacho, distinto al habitual.",
+        "B": "El trabajo que se realiza fuera de los establecimientos o centros habituales de la empresa.",
+        "C": "El trabajo que se realiza en el domicilio habitual del trabajador.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "El lugar para teletrabajar ¿debe ser el domicilio del trabajador?",
+      "opciones": {
+        "A": "Si, siempre.",
+        "B": "Nunca.",
+        "C": "No, necesariamente.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "De los siguientes, ¿cuál es considerada relación no laboral?",
+      "opciones": {
+        "A": "Autónomos",
+        "B": "Médicos",
+        "C": "Artistas",
+        "D": "Abogados"
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántas son las características de la relación laboral?",
+      "opciones": {
+        "A": "8.",
+        "B": "4.",
+        "C": "6.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué característica de la relación laboral falta en los trabajos voluntarios, de buena vecindad o por amistad?",
+      "opciones": {
+        "A": "La remuneración.",
+        "B": "La consanguinidad.",
+        "C": "El grado de afinidad.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "De las siguientes, es considerada relación laboral especial:",
+      "opciones": {
+        "A": "Artistas.",
+        "B": "Deportistas Profesionales.",
+        "C": "Empleados del hogar.",
+        "D": "Todas las anteriores."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "pregunta": "¿Por qué los trabajadores de las Administraciones Públicas no encajan en la definición de relación laboral?",
+      "opciones": {
+        "A": "Porque lo deciden unilateralmente cuando toman posesión de su puesto de trabajo.",
+        "B": "Porque lo decide así la Administración cuando toman posesión de su puesto de trabajo.",
+        "C": "Porque se rigen por una normativa propia.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "Una persona que teletrabaja, ¿tiene los mismos derechos colectivos que otro compañero que no teletrabaja?",
+      "opciones": {
+        "A": "Si, así se recoge en la Constitución Española.",
+        "B": "Si, así se recoge en el artículo 13 del ET.",
+        "C": "Si, así lo regula y garantiza la Ley 10/2021, de 9 de julio, de trabajo a distancia",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "C"
+    }
+      ]
+    },
+    {
+      "nombre": "Tema 2",
+      "tarjetas": [
+        {
+          "pregunta": "¿Cómo debe ser el objeto del contrato de trabajo?:",
+          "opciones": {
+            "A": "Determinante, posible y lícito.",
+            "B": "Determinado, posible y lícito.",
+            "C": "Lícito y posible, aunque sea indeterminado.",
+            "D": "Ninguna de las anteriores es correcta."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "Sandra es una chica de 17 años que vive con sus padres, puede firmar un contrato de trabajo?",
+          "opciones": {
+            "A": "No, debe ser mayor de edad.",
+            "B": "Si, porque está emancipada.",
+            "C": "Si, siempre que lo autorice la representación legal de los trabajadores de la empresa.",
+            "D": "Ninguna de las anteriores es correcta."
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "Matías lleva trabajando 4 meses en un taller de reparación de coches y el propietario no ha formalizado el contrato indefinido por escrito, ¿puede Matías solicitar que se recoja por escrito?",
+          "opciones": {
+            "A": "No, debe hacerse al inicio de la relación laboral.",
+            "B": "Si, cualquiera de las partes puede solicitarlo en cualquier momento.",
+            "C": "Si, sólo el trabajador puede solicitarlo en cualquier momento.",
+            "D": "Ninguna de las anteriores es correcta."
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "Desde el inicio de la relación laboral, ¿Cuál es el plazo para registrar un contrato de un trabajador en el Servicio Público de Empleo?",
+          "opciones": {
+            "A": "3 días",
+            "B": "5 días",
+            "C": "10 días",
+            "D": "60 días"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿El Servicio Público de Empleo realiza contratos de puesta a disposición?",
+          "opciones": {
+            "A": "No, en ningún caso.",
+            "B": "Si, siempre.",
+            "C": "No, salvo que las empresas contraten ese servicio.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿El trabajador puede decidir sobre los días de vacaciones que se recojan en el contrato de trabajo?",
+          "opciones": {
+            "A": "Si, puede elegir incluso el número de días.",
+            "B": "Si, pero solo puede elegir si disfrutará días naturales o laborables.",
+            "C": "Si, puede elegir el número de días y si son laborables o naturales.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "SI queremos contratar una persona que sustituya la baja de paternidad de un trabajador. ¿Qué contrato utilizaremos?",
+          "opciones": {
+            "A": "El contrato de sustitución.",
+            "B": "El contrato de obra o servicio.",
+            "C": "El contrato en prácticas.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "La duración máxima de un contrato para personal investigador en formación es de:",
+          "opciones": {
+            "A": "1 año.",
+            "B": "No tiene duración determinada.",
+            "C": "4 años.",
+            "D": "Ninguna de las anteriores es correcta."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "Rescindir un contrato en el periodo de prueba ¿Da lugar a indemnización del trabajador?",
+          "opciones": {
+            "A": "Si, si en el caso de periodos de prueba de 6 meses.",
+            "B": "Si.",
+            "C": "No.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "¿Podemos contratar a un trabajador extranjero que no resida en España, aunque no sea comunitario?",
+          "opciones": {
+            "A": "No, solo podemos contratar ciudadanos de la UE.",
+            "B": "No, nunca.",
+            "C": "Si, aunque el trámite y los requisitos son diferentes, si se trata de ciudadanos comunitarios o no.",
+            "D": "Ninguna de las anteriores."
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
+    },
+    {
+      "nombre": "Tema 3",
+      "tarjetas": [
+        {
+          "pregunta": "Se considera trabajo nocturno:",
+          "opciones": {
+            "A": "La jornada de trabajo que tiene lugar entre la entrada y la salida del sol",
+            "B": "La jornada de trabajo que tiene lugar entre las 22:00 y las 06:00 horas",
+            "C": "Todas las respuestas anteriores son correctas",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "El calendario laboral:",
+          "opciones": {
+            "A": "Debe colocarse en un lugar visible a todos los empleados. No hacerlo implica una sanción grave",
+            "B": "Debe colocarse en un lugar visible a todos los empleados. No hacerlo implica una sanción leve",
+            "C": "Debe colocarse en un lugar visible a todos los empleados. No hacerlo implica una sanción muy grave",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "¿Cuál es el objetivo que persigue la reforma laboral de diciembre de 2021?",
+          "opciones": {
+            "A": "Reducir la temporalidad y la precariedad laboral",
+            "B": "Reducir el desempleo",
+            "C": "Reducir la economía sumergida",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Cuáles son los modelos de contrato que se pueden formalizar a partir de la entrada en vigor de la reforma de 2021?",
+          "opciones": {
+            "A": "Indefinido, temporal y en practicas",
+            "B": "Indefinido, temporal y por obra o servicio",
+            "C": "Indefinido, temporal, fijo discontinuo y formativo",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "Indica cual es una característica de los contratos indefinidos ordinarios",
+          "opciones": {
+            "A": "No tener una duración máxima de 3 años",
+            "B": "No tener una duración máxima de 2 años",
+            "C": "No tener tiempo máximo de celebración",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "Indica qué contrato pertenece al grupo de contratos formativos",
+          "opciones": {
+            "A": "El contrato eventual por circunstancias de la producción",
+            "B": "El contrato por obra o servicio",
+            "C": "El contrato de formación dual",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "C"
+        },
+        {
+          "pregunta": "La jornada en la que la que no se realiza la pausa para la comida es",
+          "opciones": {
+            "A": "Jornada partida",
+            "B": "Jornada continuada",
+            "C": "Jornada a turnos",
+            "D": "Ninguna de las anteriores"
+          },
+          "respuesta_correcta": "B"
+        },
+        {
+          "pregunta": "El número de festivos nacionales al año no puede ser superior a",
+          "opciones": {
+            "A": "2 días",
+            "B": "4 días",
+            "C": "6 días",
+            "D": "8 días"
+          },
+          "respuesta_correcta": "D"
+        },
+        {
+          "pregunta": "Los días festivos…",
+          "opciones": {
+            "A": "Son retribuidas",
+            "B": "Se deben recuperar",
+            "C": "Se descuentan de las vacaciones anuales",
+            "D": "Todas son correctas"
+          },
+          "respuesta_correcta": "A"
+        },
+        {
+          "pregunta": "¿Qué duración de contrato está penalizada con recargos?",
+          "opciones": {
+            "A": "Los contratos menores a 15 días.",
+            "B": "Los contratos menores a 5 días.",
+            "C": "Los contratos menores a 30 días.",
+            "D": "Los contratos menores a 90 días."
+          },
+          "respuesta_correcta": "C"
+        }
+      ]
+    }
+  ]
+}
