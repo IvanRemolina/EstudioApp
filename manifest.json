@@ -4,13 +4,7 @@
       "archivo": "data/contabilidad-financiera.json"
     },
     {
-      "archivo": "data/desarrollo-web.json"
-    },
-    {
-      "archivo": "data/matematicas.json"
-    },
-    {
-      "archivo": "data/biologia.json"
+      "archivo": "data/gestion-recursos-humanos.json"
     }
   ]
 }

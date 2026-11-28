@@ -1,0 +1,106 @@
+{
+  "asignatura": "Gestión de Recursos Humanos",
+  "tema": "Tema 1",
+  "preguntas": [
+    {
+      "pregunta": "Además de en el Estatuto de los Trabajadores (ET), ¿en qué otro documento se regulan las licencias y permisos?",
+      "opciones": {
+        "A": "En el BOE.",
+        "B": "En el convenio colectivo.",
+        "C": "En los acuerdos privados entre la patronal y los trabajadores.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "¿Con cuántos trabajadores se exige actualmente el plan de igualdad en las empresas?",
+      "opciones": {
+        "A": "Con 50 o más trabajadores.",
+        "B": "Con 100 o más trabajadores.",
+        "C": "Con 150 o más trabajadores.",
+        "D": "Con 250 o más trabajadores."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "El trabajo a distancia es:",
+      "opciones": {
+        "A": "El trabajo que se realiza en otro despacho, distinto al habitual.",
+        "B": "El trabajo que se realiza fuera de los establecimientos o centros habituales de la empresa.",
+        "C": "El trabajo que se realiza en el domicilio habitual del trabajador.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "B"
+    },
+    {
+      "pregunta": "El lugar para teletrabajar ¿debe ser el domicilio del trabajador?",
+      "opciones": {
+        "A": "Si, siempre.",
+        "B": "Nunca.",
+        "C": "No, necesariamente.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "De los siguientes, ¿cuál es considerada relación no laboral?",
+      "opciones": {
+        "A": "Autónomos",
+        "B": "Médicos",
+        "C": "Artistas",
+        "D": "Abogados"
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "¿Cuántas son las características de la relación laboral?",
+      "opciones": {
+        "A": "8.",
+        "B": "4.",
+        "C": "6.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "pregunta": "¿Qué característica de la relación laboral falta en los trabajos voluntarios, de buena vecindad o por amistad?",
+      "opciones": {
+        "A": "La remuneración.",
+        "B": "La consanguinidad.",
+        "C": "El grado de afinidad.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "A"
+    },
+    {
+      "pregunta": "De las siguientes, es considerada relación laboral especial:",
+      "opciones": {
+        "A": "Artistas.",
+        "B": "Deportistas Profesionales.",
+        "C": "Empleados del hogar.",
+        "D": "Todas las anteriores."
+      },
+      "respuesta_correcta": "D"
+    },
+    {
+      "pregunta": "¿Por qué los trabajadores de las Administraciones Públicas no encajan en la definición de relación laboral?",
+      "opciones": {
+        "A": "Porque lo deciden unilateralmente cuando toman posesión de su puesto de trabajo.",
+        "B": "Porque lo decide así la Administración cuando toman posesión de su puesto de trabajo.",
+        "C": "Porque se rigen por una normativa propia.",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "C"
+    },
+    {
+      "pregunta": "Una persona que teletrabaja, ¿tiene los mismos derechos colectivos que otro compañero que no teletrabaja?",
+      "opciones": {
+        "A": "Si, así se recoge en la Constitución Española.",
+        "B": "Si, así se recoge en el artículo 13 del ET.",
+        "C": "Si, así lo regula y garantiza la Ley 10/2021, de 9 de julio, de trabajo a distancia",
+        "D": "Ninguna de las anteriores."
+      },
+      "respuesta_correcta": "C"
+    }
+  ]
+}
